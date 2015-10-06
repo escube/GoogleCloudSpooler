@@ -1,6 +1,8 @@
 {
-    "email": "mymail@gmail.com",
-    "password": "mymailpassword",
-    "OAUTH": "myOAUTH",
-    "printer":null
+  "private_key_id": "[Your-Private-key-id]",
+  "private_key": "-----BEGIN PRIVATE KEY-----[Your-private-key]-----END PRIVATE KEY-----\n",
+  "client_email": "[your-service-email]@developer.gserviceaccount.com",
+  "client_id": "[your-service-id].apps.googleusercontent.com",
+  "type": "service_account",
+  "printer":null
 }

@@ -118,8 +118,9 @@ def checkSpooler(cloudSpooler,job_id=None):
 def main(argv) :
    
         params=get_params(argv)
-        cloudSpooler=CloudSpooler(params["email"],params["password"],params["OAUTH"])
-        
+ 	cloudSpooler=CloudSpooler(params['client_email'],params['private_key'])
+        if "printer" not in params:
+            params['printer']=None
        
         
         while True:
