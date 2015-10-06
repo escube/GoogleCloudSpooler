@@ -8,14 +8,20 @@ Please note some of the code in the library is taken from other source on the In
 
 To use this library you need the following :
 
-1. Email from Google
-2. Password
+1. User account from google
+2. Group from google. You can create one from [here](https://groups.google.com) 
 3. [OAUTH from google.](more information on this https://developers.google.com/accounts/docs/OAuth2)
-4. A computer that is connected to the printer you want to use with this service. 
+4. Google Chrome
 
-Please note it's all very flexible and how you connect the printer with Google Cloud Printer doesn't influence the use of this library.
+How to proceede : 
 
-I used a windows machine with Chrome on it, and added printers to Chrome
+1. Create a google account
+2. Create a group on google
+3. Create in [Google Developers](https://console.developers.google.com) under credentials a new user credential
+4. Add the new created service in point 3 to the groupcreated in point 2
+5. Connect with credential of you google account of point 1 with google Chrome and following this [guide](https://developers.google.com/cloud-print/docs/overview) add the printers you want to use remotely
+
+Everything should be in place to start.  
 
 With these informations you can fill in the file conf.json and use it as you need.
 ```
@@ -33,6 +39,3 @@ If no printer is provided you will have the possibility to choose from the ones 
 
 Play and use this library as you wish.
 If you have suggestions or want to contribute send me an email.
-
-
-
