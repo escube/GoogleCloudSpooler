@@ -26,11 +26,14 @@ Everything should be in place to start.
 With these informations you can fill in the file conf.json and use it as you need.
 ```
 {
-    "email": "mymail@gmail.com",
-    "password": "mymailpassword",
-    "OAUTH": "myOAUTH",
-    "printer":null
+  "private_key_id": "[Your-Private-key-id]",
+  "private_key": "-----BEGIN PRIVATE KEY-----[Your-private-key]-----END PRIVATE KEY-----\n",
+  "client_email": "[your-service-email]@developer.gserviceaccount.com",
+  "client_id": "[your-service-id].apps.googleusercontent.com",
+  "type": "service_account",
+  "printer":null
 }
+
 ```
 
 The "printer" in this file is optional, and indicate the name of the printer to use. 
